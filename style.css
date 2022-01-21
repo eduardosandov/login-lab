@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-container {
+    width: 100%;          
+    border: 1px solid red;
+}
+
+.main-section {
+}
+.cabecera {
+    width: 98%;
+    margin: 0 auto;        
+    display: inline;
+    text-align: center;
+}
+
+.main-section__form {
+    display: flex;
+    width: 98%;
+    margin: 0 auto;    
+}
+
+
+
+.formulario {
+    width: 98%;
+    margin: 0 auto;
+    height: 700px;    
+    margin: 0 auto
+
+}
+
+.button-login {
+    border-radius: 8px;    
+    width: 300px;
+    background-color: rgb(59, 2, 2);
+    color: white;
+    padding: 10px;    
+}
