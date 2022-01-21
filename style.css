@@ -1,42 +1,44 @@
 * {
     margin: 0;
     padding: 0;
-
 }
-
 .main-container {
-    width: 100%;          
-    border: 1px solid red;
-}
-
-.main-section {
+    width: 100%;              
 }
 .cabecera {
-    width: 98%;
+    padding-top: 30px;
+    width: 80%;    
     margin: 0 auto;        
-    display: inline;
+    font-size: 16px;    
+}
+.cabecera h1 {
     text-align: center;
 }
-
 .main-section__form {
     display: flex;
     width: 98%;
     margin: 0 auto;    
 }
-
-
-
-.formulario {
+.login-box {
+    width: 70%;    
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(202, 202, 202);
+    margin: 0 auto;
+    padding: 5px;
+}
+.formulario {    
     width: 98%;
     margin: 0 auto;
     height: 700px;    
     margin: 0 auto
-
 }
 
 .button-login {
     border-radius: 8px;    
-    width: 300px;
+    width: 200px;
+    margin-top: 20px;    
     background-color: rgb(59, 2, 2);
     color: white;
     padding: 10px;    
