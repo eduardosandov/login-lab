@@ -20,11 +20,15 @@
     margin: 0 auto;    
 }
 .login-box {
-    width: 76%;    
-    height: 200px;
-    border-radius: 5px;
-    margin: 0 auto;
-    padding: 5px;
+
+    position: absolute;
+    width: 310px;
+    height: 224px;
+    left: 32px;
+    top: 166px;
+    
+    background: #F9F9F9;
+    border-radius: 9px;
 }
 .formulario {    
     width: 98%;
@@ -37,7 +41,8 @@
     border-radius: 8px;    
     width: 200px;
     margin-top: 20px;    
-    background-color: rgb(59, 2, 2);
+    background-color: #02499C;
     color: white;
     padding: 10px;    
+    border: 0;
 }
