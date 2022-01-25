@@ -16,12 +16,17 @@
     
 }
 .box1 {        
-background-color: rgb(17, 76, 204);
-grid-column: 1 / 2;
-grid-row: 1 / 1;
+    background-color: rgb(17, 76, 204);
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;    
+}
+.tittle {    
+    color: white;      
+    align-self: center; 
+    justify-self: center;
 }
 .box2 {    
-background-color: rgb(236, 236, 236);
+background-color: rgb(255, 255, 255);
 grid-column: 2 / 4;
 grid-row: 1 / 1;
 }
