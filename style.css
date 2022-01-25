@@ -5,62 +5,23 @@
 .main-container {
     width: 100%;              
 }
-.cabecera {
-    padding-top: 30px;
-    width: 80%;    
-    margin: 0 auto;        
-    font-size: 16px;    
-}
-.cabecera h1 {
-    text-align: center;
-}
-.main-section__form {
-    display: flex;
-    width: 98%;
-    margin: 0 auto;    
-}
-.login-box {
-
-    position: absolute;
-    width: 310px;
-    height: 224px;
-    left: 32px;
-    top: 166px;
-    
-    background: #F9F9F9;
-    border-radius: 9px;
-}
-.formulario {    
-    width: 98%;
-    margin: 0 auto;
-    height: 700px;    
-    margin: 0 auto
-}
-
-.button-login {
-    border-radius: 8px;    
-    width: 200px;
-    margin-top: 20px;    
-    background-color: #02499C;
-    color: white;
-    padding: 10px;    
-    border: 0;
-}
 
 .grid {
-    max-width: 100%;
-    border: 1px solid black;
+    max-width: 100%;        
 }
 .container {
     display: grid;
-    grid-template-columns: auto 100px 1fr 2fr;
-    grid-template-rows: 50px 5em min-content auto; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 500px;
+    
 }
 .box1 {        
-    grid-column: 1 / 2;    
-    background-color: burlywood;
+background-color: rgb(17, 76, 204);
+grid-column: 1 / 2;
+grid-row: 1 / 1;
 }
 .box2 {    
-    grid-column: 3 / 4;
-    background-color: lightgreen;
+background-color: rgb(236, 236, 236);
+grid-column: 2 / 4;
+grid-row: 1 / 1;
 }
