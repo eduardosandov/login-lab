@@ -15,7 +15,7 @@
     grid-auto-rows: 500px;    
 }
 .box1 {        
-    background-color: rgb(17, 76, 204);
+    background-color: #02499C;
     grid-column: 1 / 2;
     grid-row: 1 / 1;    
 }
